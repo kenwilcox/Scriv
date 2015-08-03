@@ -46,6 +46,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     self.saveContext()
   }
 
+  func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+    
+    if let authResult = Dropbox.handleRedirectURL(url) {
+      switch authResult {
+      case .Success(let token):
+        println("Success! User is logged into Dropbox.")
+      case .Error(let error, let description):
+        println("Error: \(description)")
+      }
+    }
+    
+    return false
+  }
+  
   // MARK: - Core Data stack
 
   lazy var applicationDocumentsDirectory: NSURL = {

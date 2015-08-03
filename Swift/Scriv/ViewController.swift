@@ -14,6 +14,19 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // Verify user is logged into Dropbox
+    if let client = Dropbox.authorizedClient {
+      
+      // Get the current user's account info
+      client.usersGetCurrentAccount().response { response, error in
+        if let account = response {
+          println("Hello \(account.name.givenName)")
+        } else {
+          println(error!)
+        }
+      }
+    }
   }
 
   override func didReceiveMemoryWarning() {
