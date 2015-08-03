@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6ABEB11B6F0CCB0027B72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6ABEB01B6F0CCB0027B72C /* AppDelegate.swift */; };
+		BE6ABEB41B6F0CCB0027B72C /* Scriv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE6ABEB21B6F0CCB0027B72C /* Scriv.xcdatamodeld */; };
+		BE6ABEB61B6F0CCB0027B72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6ABEB51B6F0CCB0027B72C /* ViewController.swift */; };
+		BE6ABEB91B6F0CCB0027B72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6ABEB71B6F0CCB0027B72C /* Main.storyboard */; };
+		BE6ABEBB1B6F0CCB0027B72C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6ABEBA1B6F0CCB0027B72C /* Images.xcassets */; };
+		BE6ABEBE1B6F0CCB0027B72C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6ABEBC1B6F0CCB0027B72C /* LaunchScreen.xib */; };
+		BE6ABECA1B6F0CCC0027B72C /* ScrivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6ABEC91B6F0CCC0027B72C /* ScrivTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE6ABEC41B6F0CCC0027B72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE6ABEA31B6F0CCB0027B72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE6ABEAA1B6F0CCB0027B72C;
+			remoteInfo = Scriv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE6ABEAB1B6F0CCB0027B72C /* Scriv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scriv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6ABEAF1B6F0CCB0027B72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6ABEB01B6F0CCB0027B72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE6ABEB31B6F0CCB0027B72C /* Scriv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scriv.xcdatamodel; sourceTree = "<group>"; };
+		BE6ABEB51B6F0CCB0027B72C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE6ABEB81B6F0CCB0027B72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE6ABEBA1B6F0CCB0027B72C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE6ABEBD1B6F0CCB0027B72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE6ABEC31B6F0CCC0027B72C /* ScrivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6ABEC81B6F0CCC0027B72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6ABEC91B6F0CCC0027B72C /* ScrivTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrivTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE6ABEA81B6F0CCB0027B72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6ABEC01B6F0CCC0027B72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE6ABEA21B6F0CCB0027B72C = {
+			isa = PBXGroup;
+			children = (
+				BE6ABEAD1B6F0CCB0027B72C /* Scriv */,
+				BE6ABEC61B6F0CCC0027B72C /* ScrivTests */,
+				BE6ABEAC1B6F0CCB0027B72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE6ABEAC1B6F0CCB0027B72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE6ABEAB1B6F0CCB0027B72C /* Scriv.app */,
+				BE6ABEC31B6F0CCC0027B72C /* ScrivTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE6ABEAD1B6F0CCB0027B72C /* Scriv */ = {
+			isa = PBXGroup;
+			children = (
+				BE6ABEB01B6F0CCB0027B72C /* AppDelegate.swift */,
+				BE6ABEB51B6F0CCB0027B72C /* ViewController.swift */,
+				BE6ABEB71B6F0CCB0027B72C /* Main.storyboard */,
+				BE6ABEBA1B6F0CCB0027B72C /* Images.xcassets */,
+				BE6ABEBC1B6F0CCB0027B72C /* LaunchScreen.xib */,
+				BE6ABEB21B6F0CCB0027B72C /* Scriv.xcdatamodeld */,
+				BE6ABEAE1B6F0CCB0027B72C /* Supporting Files */,
+			);
+			path = Scriv;
+			sourceTree = "<group>";
+		};
+		BE6ABEAE1B6F0CCB0027B72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE6ABEAF1B6F0CCB0027B72C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE6ABEC61B6F0CCC0027B72C /* ScrivTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE6ABEC91B6F0CCC0027B72C /* ScrivTests.swift */,
+				BE6ABEC71B6F0CCC0027B72C /* Supporting Files */,
+			);
+			path = ScrivTests;
+			sourceTree = "<group>";
+		};
+		BE6ABEC71B6F0CCC0027B72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE6ABEC81B6F0CCC0027B72C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE6ABEAA1B6F0CCB0027B72C /* Scriv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6ABECD1B6F0CCC0027B72C /* Build configuration list for PBXNativeTarget "Scriv" */;
+			buildPhases = (
+				BE6ABEA71B6F0CCB0027B72C /* Sources */,
+				BE6ABEA81B6F0CCB0027B72C /* Frameworks */,
+				BE6ABEA91B6F0CCB0027B72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scriv;
+			productName = Scriv;
+			productReference = BE6ABEAB1B6F0CCB0027B72C /* Scriv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE6ABEC21B6F0CCC0027B72C /* ScrivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6ABED01B6F0CCC0027B72C /* Build configuration list for PBXNativeTarget "ScrivTests" */;
+			buildPhases = (
+				BE6ABEBF1B6F0CCC0027B72C /* Sources */,
+				BE6ABEC01B6F0CCC0027B72C /* Frameworks */,
+				BE6ABEC11B6F0CCC0027B72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6ABEC51B6F0CCC0027B72C /* PBXTargetDependency */,
+			);
+			name = ScrivTests;
+			productName = ScrivTests;
+			productReference = BE6ABEC31B6F0CCC0027B72C /* ScrivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE6ABEA31B6F0CCB0027B72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kenneth Wilcox";
+				TargetAttributes = {
+					BE6ABEAA1B6F0CCB0027B72C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BE6ABEC21B6F0CCC0027B72C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BE6ABEAA1B6F0CCB0027B72C;
+					};
+				};
+			};
+			buildConfigurationList = BE6ABEA61B6F0CCB0027B72C /* Build configuration list for PBXProject "Scriv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE6ABEA21B6F0CCB0027B72C;
+			productRefGroup = BE6ABEAC1B6F0CCB0027B72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE6ABEAA1B6F0CCB0027B72C /* Scriv */,
+				BE6ABEC21B6F0CCC0027B72C /* ScrivTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE6ABEA91B6F0CCB0027B72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6ABEB91B6F0CCB0027B72C /* Main.storyboard in Resources */,
+				BE6ABEBE1B6F0CCB0027B72C /* LaunchScreen.xib in Resources */,
+				BE6ABEBB1B6F0CCB0027B72C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6ABEC11B6F0CCC0027B72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE6ABEA71B6F0CCB0027B72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6ABEB61B6F0CCB0027B72C /* ViewController.swift in Sources */,
+				BE6ABEB11B6F0CCB0027B72C /* AppDelegate.swift in Sources */,
+				BE6ABEB41B6F0CCB0027B72C /* Scriv.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6ABEBF1B6F0CCC0027B72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6ABECA1B6F0CCC0027B72C /* ScrivTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE6ABEC51B6F0CCC0027B72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE6ABEAA1B6F0CCB0027B72C /* Scriv */;
+			targetProxy = BE6ABEC41B6F0CCC0027B72C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE6ABEB71B6F0CCB0027B72C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE6ABEB81B6F0CCB0027B72C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE6ABEBC1B6F0CCB0027B72C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE6ABEBD1B6F0CCB0027B72C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE6ABECB1B6F0CCC0027B72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE6ABECC1B6F0CCC0027B72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE6ABECE1B6F0CCC0027B72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Scriv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE6ABECF1B6F0CCC0027B72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Scriv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE6ABED11B6F0CCC0027B72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrivTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scriv.app/Scriv";
+			};
+			name = Debug;
+		};
+		BE6ABED21B6F0CCC0027B72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrivTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scriv.app/Scriv";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE6ABEA61B6F0CCB0027B72C /* Build configuration list for PBXProject "Scriv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6ABECB1B6F0CCC0027B72C /* Debug */,
+				BE6ABECC1B6F0CCC0027B72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6ABECD1B6F0CCC0027B72C /* Build configuration list for PBXNativeTarget "Scriv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6ABECE1B6F0CCC0027B72C /* Debug */,
+				BE6ABECF1B6F0CCC0027B72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE6ABED01B6F0CCC0027B72C /* Build configuration list for PBXNativeTarget "ScrivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6ABED11B6F0CCC0027B72C /* Debug */,
+				BE6ABED21B6F0CCC0027B72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE6ABEB21B6F0CCB0027B72C /* Scriv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE6ABEB31B6F0CCB0027B72C /* Scriv.xcdatamodel */,
+			);
+			currentVersion = BE6ABEB31B6F0CCB0027B72C /* Scriv.xcdatamodel */;
+			path = Scriv.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE6ABEA31B6F0CCB0027B72C /* Project object */;
+}
