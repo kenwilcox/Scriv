@@ -14,6 +14,7 @@
 		BE6ABEBB1B6F0CCB0027B72C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6ABEBA1B6F0CCB0027B72C /* Images.xcassets */; };
 		BE6ABEBE1B6F0CCB0027B72C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6ABEBC1B6F0CCB0027B72C /* LaunchScreen.xib */; };
 		BE6ABECA1B6F0CCC0027B72C /* ScrivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6ABEC91B6F0CCC0027B72C /* ScrivTests.swift */; };
+		BE9883B51B6F110400EE96C8 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9883B41B6F110400EE96C8 /* APIKeys.swift */; };
 		D9582EEB4F900CC0293F4288 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D183D47644B30EBD917C5627 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		BE6ABEC31B6F0CCC0027B72C /* ScrivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6ABEC81B6F0CCC0027B72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6ABEC91B6F0CCC0027B72C /* ScrivTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrivTests.swift; sourceTree = "<group>"; };
+		BE9883B41B6F110400EE96C8 /* APIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		C80B7F96F1CCC9E0F163EB9B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D183D47644B30EBD917C5627 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,6 +88,7 @@
 		BE6ABEAD1B6F0CCB0027B72C /* Scriv */ = {
 			isa = PBXGroup;
 			children = (
+				BE9883B41B6F110400EE96C8 /* APIKeys.swift */,
 				BE6ABEB01B6F0CCB0027B72C /* AppDelegate.swift */,
 				BE6ABEB51B6F0CCB0027B72C /* ViewController.swift */,
 				BE6ABEB71B6F0CCB0027B72C /* Main.storyboard */,
@@ -292,6 +295,7 @@
 			files = (
 				BE6ABEB61B6F0CCB0027B72C /* ViewController.swift in Sources */,
 				BE6ABEB11B6F0CCB0027B72C /* AppDelegate.swift in Sources */,
+				BE9883B51B6F110400EE96C8 /* APIKeys.swift in Sources */,
 				BE6ABEB41B6F0CCB0027B72C /* Scriv.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

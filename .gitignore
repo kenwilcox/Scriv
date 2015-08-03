@@ -35,6 +35,7 @@ DerivedData
 
 Carthage/Build
 
+Swift/Scriv/APIKeys.swift
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
