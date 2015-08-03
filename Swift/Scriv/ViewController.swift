@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyDropbox
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,13 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+  @IBAction func linkToDropbox(sender: UIButton) {
+    if (Dropbox.authorizedClient == nil) {
+      Dropbox.authorizeFromController(self)
+    } else {
+      print("User is already authorized!")
+    }
+  }
 
 }
 
