@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE6559941B803D1E0049C9BC /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = BE6559921B803D1E0049C9BC /* LICENSE.md */; };
+		BE6559951B803D1E0049C9BC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BE6559931B803D1E0049C9BC /* README.md */; };
 		BE6ABEB11B6F0CCB0027B72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6ABEB01B6F0CCB0027B72C /* AppDelegate.swift */; };
 		BE6ABEB41B6F0CCB0027B72C /* Scriv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE6ABEB21B6F0CCB0027B72C /* Scriv.xcdatamodeld */; };
 		BE6ABEB61B6F0CCB0027B72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6ABEB51B6F0CCB0027B72C /* ViewController.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		A887929CCB581ABF1D617B44 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6559921B803D1E0049C9BC /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
+		BE6559931B803D1E0049C9BC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE6ABEAB1B6F0CCB0027B72C /* Scriv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scriv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6ABEAF1B6F0CCB0027B72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6ABEB01B6F0CCB0027B72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		BE6ABEA21B6F0CCB0027B72C = {
 			isa = PBXGroup;
 			children = (
+				BE6559921B803D1E0049C9BC /* LICENSE.md */,
+				BE6559931B803D1E0049C9BC /* README.md */,
 				BE6ABEAD1B6F0CCB0027B72C /* Scriv */,
 				BE6ABEC61B6F0CCC0027B72C /* ScrivTests */,
 				BE6ABEAC1B6F0CCB0027B72C /* Products */,
@@ -293,6 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6559951B803D1E0049C9BC /* README.md in Sources */,
+				BE6559941B803D1E0049C9BC /* LICENSE.md in Sources */,
 				BE6ABEB61B6F0CCB0027B72C /* ViewController.swift in Sources */,
 				BE6ABEB11B6F0CCB0027B72C /* AppDelegate.swift in Sources */,
 				BE9883B51B6F110400EE96C8 /* APIKeys.swift in Sources */,
