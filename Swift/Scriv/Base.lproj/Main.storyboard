@@ -42,10 +42,25 @@
                                     <action selector="listFolderContents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuP-l3-q8v"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwr-9e-Nam">
+                                <rect key="frame" x="254" y="96" width="92" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="YTF-SB-kqq"/>
+                                    <constraint firstAttribute="height" constant="30" id="j6F-IJ-190"/>
+                                </constraints>
+                                <state key="normal" title="Upload A File">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="uploadAFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jBo-7e-2cq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="cwr-9e-Nam" secondAttribute="centerX" id="4uz-wN-8dh"/>
                             <constraint firstItem="AnT-yl-GUt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FTl-fe-jeX"/>
+                            <constraint firstItem="cwr-9e-Nam" firstAttribute="top" secondItem="xlB-Yb-PBA" secondAttribute="bottom" constant="8" id="aEu-kD-TdH"/>
                             <constraint firstAttribute="centerX" secondItem="AnT-yl-GUt" secondAttribute="centerX" constant="-0.5" id="fGN-nT-xlS"/>
                             <constraint firstAttribute="centerX" secondItem="xlB-Yb-PBA" secondAttribute="centerX" constant="-0.5" id="isC-bo-9gP"/>
                             <constraint firstItem="xlB-Yb-PBA" firstAttribute="top" secondItem="AnT-yl-GUt" secondAttribute="bottom" constant="8" id="vJ6-Qq-Acw"/>

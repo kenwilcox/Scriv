@@ -67,5 +67,41 @@ class ViewController: UIViewController {
       println("client is not set")
     }
   }
+  
+  @IBAction func uploadAFile(sender: AnyObject) {
+    if let client = self.client {
+      let fileData = "Hello World!".dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false)
+      showNetworkActivity(true)
+      client.filesUpload(path: "/hello.txt", body: fileData!).response { response, error in
+        if let metadata = response {
+          println("Uploaded file name: \(metadata.name)")
+          println("Uploaded file revision: \(metadata.rev)")
+          self.showNetworkActivity(false)
+          
+          // Get file (or folder) metadata
+          self.showNetworkActivity(true)
+          client.filesGetMetadata(path: "/hello.txt").response { response, error in
+            self.showNetworkActivity(true)
+            if let metadata = response {
+              println("Name: \(metadata.name)")
+              if let file = metadata as? Files.FileMetadata {
+                println("This is a file.")
+                println("File size: \(file.size)")
+              } else if let folder = metadata as? Files.FolderMetadata {
+                println("This is a folder.")
+              }
+            } else {
+              println(error!)
+            }
+          }
+        } else {
+          println(error!)
+        }
+      }
+    } else {
+      println("client not set")
+    }
+  }
+  
 }
 
