@@ -103,5 +103,22 @@ class ViewController: UIViewController {
     }
   }
   
+  @IBAction func downloadFile(sender: AnyObject) {
+    if let client = self.client {
+      // Download a file
+      client.filesDownload(path: "/hello.txt").response { response, error in
+        if let (metadata, data) = response {
+          println("Dowloaded file name: \(metadata.name)")
+          println("Downloaded file data: \(data)")
+          var datastring = NSString(data:data, encoding:NSUTF8StringEncoding) as! String
+          println("File contents: \(datastring)")
+        } else {
+          println(error!)
+        }
+      }
+    } else {
+      println("client not set")
+    }
+  }
 }
 
